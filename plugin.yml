@@ -3,3 +3,8 @@ api: 1.0.0
 version: 1.0.0
 main: Andre\Main
 author: AndreTheGamer
+
+commands:
+ xyz:
+  description: Command to see players position
+  

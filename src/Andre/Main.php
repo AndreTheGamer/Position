@@ -25,6 +25,5 @@ public function onCommand(CommandSender $sender, Command $command, $label, array
 }
 public function Disable(){
 $this->getServer()->getLogger()->info("Position unloaded");
-$this->getServer()->getPluginManager()->registerEvents($this,$this);
 }
 }

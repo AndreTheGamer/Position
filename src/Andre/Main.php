@@ -17,9 +17,9 @@ $this->getServer()->getPluginManager()->registerEvents($this,$this);
 public function onCommand(CommandSender $sender, Command $command, $label, array $args) {
         switch ($command){
             case 'xyz':
-			$x = $p->getX();
-			$y = $p->gety();
-                        $z = $p->getZ();
+			$x = $sender->getX();
+			$y = $sender->gety();
+                        $z = $sender->getZ();
 				$sender->sendMessage("You are standing at: $x , $y , $z");
 		}
 }

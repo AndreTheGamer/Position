@@ -20,7 +20,7 @@ public function onCommand(CommandSender $sender, Command $command, $label, array
 			$x = $sender->getX();
 			$y = $sender->gety();
                         $z = $sender->getZ();
-				$sender->sendMessage("You are standing at: $x , $y , $z");
+				$sender->sendMessage("The cord is:\nX:  $x \nY: $y \nZ: $z");
 		}
 }
 public function Disable(){
